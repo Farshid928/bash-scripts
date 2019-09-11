@@ -7,6 +7,8 @@
 
 #Note that the connection between servers must be established via the ssh key.
 
+#Important note that none of cpanel accounts shuold be suspend! If so, the script will not work correctly.
+
 DEST="192.168.1.1" #Your DirectAdmin Server IP
 PORT="22" #Your Directadmin Server ssh Port
 cd /var/cpanel/users
