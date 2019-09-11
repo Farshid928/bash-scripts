@@ -5,6 +5,8 @@
 #If you do not intend to change the IP after transferring the account, remove the following line from the script:
 #/usr/local/cpanel/bin/setsiteip -u $USER $DEST
 
+#Note that the connection between servers must be established via the ssh key.
+
 DEST="192.168.1.1" #Your DirectAdmin Server IP
 PORT="22" #Your Directadmin Server ssh Port
 cd /var/cpanel/users
