@@ -4,7 +4,7 @@ some bash scripts in order to make life easier!
 1. <a href="https://github.com/Farshid928/bash-scripts/blob/master/xfer-cp-accts-to-da.sh">xfer-cp-accts-to-da.sh</a>:
 Auto transfer cpanel users to directadmins via bash script.
 
-The steps to execute the script are as follows:
+The script executes these steps:
 1. Creat a full backup of account on cpanel. (This full backup does not include the public_html directory)
 2. Transfer backup to directadmin server and restore that.
 3. After the full backup in directadmin restores the user public_html directory information in cpanel transfer to the user public_html directory in directadmin.
