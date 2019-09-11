@@ -1,5 +1,5 @@
 #!/bin/sh
-#You can get the script updates from  https://bit.ly/2lE9QMH
+#You can get the script updates from  https://bit.ly/2ktJVHn
 
 DEST="192.168.1.1" #Your DirectAdmin Server IP
 PORT="22" #Your Directadmin Server ssh Port
