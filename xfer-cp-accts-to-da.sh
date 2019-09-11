@@ -1,6 +1,10 @@
 #!/bin/sh
 #You can get the script updates from  https://bit.ly/2ktJVHn
 
+#Note that you need to add the DirectAdmin IP server from the "Add a New IP Address" section on the WHM panel before running the script.
+#If you do not intend to change the IP after transferring the account, remove the following line from the script:
+#/usr/local/cpanel/bin/setsiteip -u $USER $DEST
+
 DEST="192.168.1.1" #Your DirectAdmin Server IP
 PORT="22" #Your Directadmin Server ssh Port
 cd /var/cpanel/users
