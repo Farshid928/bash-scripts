@@ -1,5 +1,6 @@
 #!/bin/sh
 #! This script transfers last backup files from cPanel or Directadmin servers to the server which this script is running on.
+#! Get updates from: https://bit.ly/2RP3Rlv
 
 HOST=192.168.1.1 #Enter Your Hostname or Server IP
 PORT=22 #Enter ssh Port
