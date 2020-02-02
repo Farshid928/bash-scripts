@@ -14,3 +14,6 @@ The script executes these steps:
 
 These steps are performed respectively for each cpanel user account.
 
+2. <a href="https://github.com/Farshid928/bash-scripts/blob/master/cp-da-remote-bak.sh">cp-da-remote-bak.sh</a>:
+Transfer Last backup files of cPanel or Directadmin servers based on backup type (Compressed or Incremental).
+This scripts transfers backups to home directory and places it into a directoy named after the source server.
