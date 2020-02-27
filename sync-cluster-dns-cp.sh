@@ -1,7 +1,6 @@
 #!/bin/bash
 #This script syncs dns zone(s) for all domains (main domain, parked doamin(s) and addon domain(s) in a cpanel cluster dns netwok.
 
-
 echo "Enter username then press enter:"
 
 read USER
