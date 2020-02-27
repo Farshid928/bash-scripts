@@ -18,3 +18,7 @@ These steps are performed respectively for each cpanel user account.
 Transfer Last backup files of cPanel or Directadmin servers based on backup type (Compressed or Incremental).
 
 This scripts transfers backups to home directory and places it into a directoy named after the source server.
+
+3. <a href="https://github.com/Farshid928/bash-scripts/blob/master/sync-cluster-dns-cp.sh">sync-cluster-dns-cp.sh</a>: Sync dns zones in a cpanel clustered server.
+
+This script syncs dns zone(s) for all domains (main domain, parked doamin(s) and addon domain(s) in a cpanel cluster dns netwok.
