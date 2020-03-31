@@ -217,7 +217,7 @@ rm bPATH.txt bPATH2.txt 2>/dev/null
 		else
 			echo 'Okay! none of backup files are corrupted!'
 		fi
-fi
+	fi
 	rm bPATH.txt 2>/dev/null
 	rm /root/userlist928.txt 2>/dev/null
 	rm /root/userlist929.txt 2>/dev/null
