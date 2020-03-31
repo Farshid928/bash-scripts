@@ -1,4 +1,4 @@
-#Get updates from https://bit.ly/2R30C9z
+#Get updates from https://bit.ly/2Uw0CAU
 #This script has been tested in zsh shell, I suggest you to use this shell environment >> https://bit.ly/2w1WUFJ
 #This script works on cpanel and directadmin servers. In directadmin servers only full backups in cron will be check.
 #In the servers with compressed backups it'll take some times to complete the process.
