@@ -16,9 +16,10 @@ These steps are performed respectively for each cpanel user account.
 
 2. <a href="https://github.com/Farshid928/bash-scripts/blob/master/cp-da-remote-bak.sh">cp-da-remote-bak.sh</a>:
 Transfer Last backup files of cPanel or Directadmin servers based on backup type (Compressed or Incremental).
-
 This scripts transfers backups to home directory and places it into a directoy named after the source server.
 
 3. <a href="https://github.com/Farshid928/bash-scripts/blob/master/sync-cluster-dns-cp.sh">sync-cluster-dns-cp.sh</a>: Sync dns zones in a cpanel clustered server.
-
 This script syncs dns zone(s) for all domains (main domain, parked doamin(s) and addon domain(s) in a cpanel cluster dns netwok.
+
+4. <a href="https://github.com/Farshid928/bash-scripts/blob/master/cp-da-check-bak.sh">cp-da-check-bak.sh</a>: Chek cpanel and directadmin full backups.
+This scripts whill check the last full backup if cpanel and directadmin servers. Number of users will be compare with number of backups files and if a user has no backup files, the username will be shown to you. In addition in the servers with compressed full backups, the tar.gz file will be check in order to be extractable.
