@@ -22,4 +22,4 @@ This scripts transfers backups to home directory and places it into a directoy n
 This script syncs dns zone(s) for all domains (main domain, parked doamin(s) and addon domain(s) in a cpanel cluster dns netwok.
 
 4. <a href="https://github.com/Farshid928/bash-scripts/blob/master/cp-da-check-bak.sh">cp-da-check-bak.sh</a>: Chek cpanel and directadmin full backups.
-This scripts whill check the last full backup if cpanel and directadmin servers. Number of users will be compare with number of backups files and if a user has no backup files, the username will be shown to you. In addition in the servers with compressed full backups, the tar.gz file will be check in order to be extractable.
+This scripts whill will check the last full backup if on cpanel and directadmin servers. Number of users will be compare compared with number of backup files and if a user has no backup files, the username will be shown to you displayed. In addition in on the servers with compressed full backups, the tar.gz file will be check checked to see if it's extractable in order to be extractable
